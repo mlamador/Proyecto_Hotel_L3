@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace Proyecto_Hotel_L3
 {
     partial class FormFactura
     {

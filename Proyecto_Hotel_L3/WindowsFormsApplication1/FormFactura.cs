@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace Proyecto_Hotel_L3
 {
     public partial class FormFactura : Form
     {
