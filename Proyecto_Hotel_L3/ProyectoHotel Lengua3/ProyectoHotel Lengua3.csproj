@@ -176,6 +176,7 @@
     </Compile>
     <None Include="Properties\DataSources\BL.Apartados.Habitacion.datasource" />
     <None Include="Properties\DataSources\BL.Apartados.HabitacionesBL.datasource" />
+    <None Include="Properties\DataSources\BL.Apartados.Resultado.datasource" />
     <None Include="Properties\DataSources\BL.Apartados.SeguridadBL.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -192,7 +193,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BL.Apartados\BL.Apartados.csproj">
-      <Project>{71163c79-15ad-4bff-bf3f-92c9dbdccfd1}</Project>
+      <Project>{71163C79-15AD-4BFF-BF3F-92C9DBDCCFD1}</Project>
       <Name>BL.Apartados</Name>
     </ProjectReference>
   </ItemGroup>

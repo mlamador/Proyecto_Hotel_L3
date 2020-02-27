@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoHotel Lengua3", "..\..\..\..\..\Desktop\Proyecto_Hotel_L3\Proyecto_Hotel_L3\ProyectoHotel Lengua3\ProyectoHotel Lengua3.csproj", "{87A25540-A900-4494-B047-AA68AB9D4A8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoHotel Lengua3", "ProyectoHotel Lengua3\ProyectoHotel Lengua3.csproj", "{87A25540-A900-4494-B047-AA68AB9D4A8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.Apartados", "..\..\..\..\..\Desktop\Proyecto_Hotel_L3\Proyecto_Hotel_L3\BL.Apartados\BL.Apartados.csproj", "{71163C79-15AD-4BFF-BF3F-92C9DBDCCFD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.Apartados", "BL.Apartados\BL.Apartados.csproj", "{71163C79-15AD-4BFF-BF3F-92C9DBDCCFD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
