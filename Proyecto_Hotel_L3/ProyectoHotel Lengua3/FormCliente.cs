@@ -140,5 +140,10 @@ namespace ProyectoHotel_Lengua3
         {
 
         }
+
+        private void listaTiposBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

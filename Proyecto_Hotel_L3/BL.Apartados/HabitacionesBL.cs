@@ -31,6 +31,8 @@ namespace BL.Apartados
 
         public BindingList<Habitacion> ObtenerHabitaciones()
         {
+
+
             _contexto.Habitaciones.Load();
 
             ListaHabitaciones = _contexto.Habitaciones.Local.ToBindingList();
@@ -79,7 +81,7 @@ namespace BL.Apartados
         {
             foreach (var habitacion in ListaHabitaciones)
             {
-                if (habitacion.Id== id)
+                if (habitacion.Id == id)
                 {
                     ListaHabitaciones.Remove(habitacion);
 

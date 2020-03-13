@@ -37,12 +37,14 @@ namespace BL.Apartados
 
     public class Tipo
     {
-        public string Descripcion { get; internal set; }
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
         public int Tipos { get; set; }
     }
 
     public class Usuario
     {
+        public int Id { get; set; }
         public string usuario { get; set; }
         public string contrasena { get; set; }
     }

@@ -35,8 +35,8 @@
             System.Windows.Forms.Label precioLabel;
             System.Windows.Forms.Label tarjetaLabel;
             System.Windows.Forms.Label tipoHLabel;
-            System.Windows.Forms.Label tipoIdLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCliente));
+            System.Windows.Forms.Label tipoIdLabel;
             this.listaHabitacionesBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.listaHabitacionesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -137,15 +137,6 @@
             tipoHLabel.TabIndex = 22;
             tipoHLabel.Text = "Tipo H:";
             // 
-            // tipoIdLabel
-            // 
-            tipoIdLabel.AutoSize = true;
-            tipoIdLabel.Location = new System.Drawing.Point(492, 119);
-            tipoIdLabel.Name = "tipoIdLabel";
-            tipoIdLabel.Size = new System.Drawing.Size(34, 13);
-            tipoIdLabel.TabIndex = 23;
-            tipoIdLabel.Text = "Tipo :";
-            // 
             // listaHabitacionesBindingNavigator
             // 
             this.listaHabitacionesBindingNavigator.AddNewItem = null;
@@ -173,7 +164,7 @@
             this.listaHabitacionesBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.listaHabitacionesBindingNavigator.Name = "listaHabitacionesBindingNavigator";
             this.listaHabitacionesBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.listaHabitacionesBindingNavigator.Size = new System.Drawing.Size(737, 25);
+            this.listaHabitacionesBindingNavigator.Size = new System.Drawing.Size(670, 25);
             this.listaHabitacionesBindingNavigator.TabIndex = 12;
             this.listaHabitacionesBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -404,24 +395,32 @@
             // 
             this.listaTiposBindingSource.DataSource = typeof(BL.Apartados.Tipo);
             // 
+            // tipoIdLabel
+            // 
+            tipoIdLabel.AutoSize = true;
+            tipoIdLabel.Location = new System.Drawing.Point(480, 120);
+            tipoIdLabel.Name = "tipoIdLabel";
+            tipoIdLabel.Size = new System.Drawing.Size(43, 13);
+            tipoIdLabel.TabIndex = 23;
+            tipoIdLabel.Text = "Tipo Id:";
+            // 
             // tipoIdComboBox
             // 
-            this.tipoIdComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedItem", this.habitacionBindingSource, "TipoId", true));
+            this.tipoIdComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.habitacionBindingSource, "TipoId", true));
             this.tipoIdComboBox.DataSource = this.listaTiposBindingSource;
             this.tipoIdComboBox.DisplayMember = "Descripcion";
-            this.tipoIdComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.tipoIdComboBox.FormattingEnabled = true;
-            this.tipoIdComboBox.Location = new System.Drawing.Point(541, 116);
+            this.tipoIdComboBox.Location = new System.Drawing.Point(529, 117);
             this.tipoIdComboBox.Name = "tipoIdComboBox";
             this.tipoIdComboBox.Size = new System.Drawing.Size(121, 21);
             this.tipoIdComboBox.TabIndex = 24;
-            this.tipoIdComboBox.ValueMember = "Tipos";
+            this.tipoIdComboBox.ValueMember = "Id";
             // 
             // FormCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 450);
+            this.ClientSize = new System.Drawing.Size(670, 450);
             this.Controls.Add(tipoIdLabel);
             this.Controls.Add(this.tipoIdComboBox);
             this.Controls.Add(this.listaHabitacionesDataGridView);
