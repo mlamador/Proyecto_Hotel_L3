@@ -145,5 +145,11 @@ namespace ProyectoHotel_Lengua3
         {
 
         }
+
+        private void habitacionBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

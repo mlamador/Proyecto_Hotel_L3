@@ -112,7 +112,7 @@ namespace BL.Apartados
             var resultado = new Resultado();
             resultado.Exitoso = true;
 
-            if (string.IsNullOrEmpty(habitacion.Nombre) ==true)
+            if (string.IsNullOrEmpty(habitacion.Nombre) == true)
             {
                 resultado.Mensaje = "Ingrese un Nombre";
                 resultado.Exitoso = false;

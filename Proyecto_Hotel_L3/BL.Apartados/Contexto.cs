@@ -12,7 +12,7 @@ namespace BL.Apartados
     {
 
         public Contexto() : base(@"Data Source=(LocalDb)\MSSQLLocalDB;AttachDBFilename=" + 
-        Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"Proyecto_Hotel_L3 5.1.mdf")
+        Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"Proyecto_Hotel_L3 5.2.mdf")
         {
 
         }
